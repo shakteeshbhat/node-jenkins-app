@@ -11,9 +11,9 @@ describe("Hello World Server", function() {
       });
     });
 
-    it("returns Hello World", function(done) {
+    it("returns Hello World! of cloud computing", function(done) {
       request.get(base_url, function(error, response, body) {
-        expect(body).toBe("Hello World!");
+        expect(body).toBe("Hello World! of cloud computing");
         done();
 
         server.close();
