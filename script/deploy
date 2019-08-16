@@ -3,6 +3,7 @@
  cd ~/node-jenkins-app-example
  git pull
  npm install 
+ killall -9 node
  pm2 start app.js
  exit
 EOF
