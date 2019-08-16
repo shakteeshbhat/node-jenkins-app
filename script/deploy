@@ -1,5 +1,5 @@
 #!/bin/sh
- ssh node@18.219.232.73 <<EOF
+ ssh node@3.17.151.192 <<EOF
  cd ~/node-jenkins-app-example
  git pull
  npm install 
