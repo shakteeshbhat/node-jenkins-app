@@ -3,6 +3,6 @@
  cd ~/node-jenkins-app-example
  git pull
  npm install 
- node app.js
+ pm2 start app.js
  exit
 EOF
