@@ -13,7 +13,7 @@ describe("Hello World Server", function() {
 
     it("returns Hello World! of cloud computing and devops and computer networks ", function(done) {
       request.get(base_url, function(error, response, body) {
-        expect(body).toBe("Hello World! of cloud computing and devops and computer networks and world");
+        expect(body).toBe("Hello World! of cloud computing and devops and computer networks");
         done();
 
         server.close();
