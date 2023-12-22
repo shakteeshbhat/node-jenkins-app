@@ -23,7 +23,7 @@ build_docker_image:
           echo $DOCKER_PASSWORD | docker login -u shakteesh --password-stdin
           docker push shakteesh/nopdejswebapp:latest
 
-workflows:
+workflows: 
     build_test:
       jobs:
         - build_test
