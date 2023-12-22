@@ -5,7 +5,7 @@ jobs:
    -image: circleci/node:12
   steps:
    -checkout
-   -run:
+   - run:
       name: Install npm dependencies
       command:
         npm install --save
