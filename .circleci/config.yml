@@ -19,9 +19,9 @@ jobs:
       - run:
           name: Build Docker image
           command: |
-            docker build -t nodejswebapp -t shakteesh/nodejswebapp1:latest .
+            docker build -t nodejswebapp -t shakteesh/nodejswebapp:latest .
             echo $DOCKER_PASSWORD | docker login -u shakteesh --password-stdin
-            docker push shakteesh/nodejswebapp1:latest  # Fixed typo in the image name
+            docker push shakteesh/nodejswebapp:latest  # Fixed typo in the image name
 
 workflows:
   version: 2
